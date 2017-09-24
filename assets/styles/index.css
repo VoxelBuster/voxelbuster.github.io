@@ -1,11 +1,16 @@
 body {
     background-color: #263238;
     font-family: Helvetica;
-    font-size: 18px;
+    font-size: 18pt;
 }
 
 #user_icon_1 {
     border-radius: 25px;
     background: #37474F;
     padding: 20px;
+}
+
+#name_header_1 {
+    font-size: 48pt;
+    color: white;
 }
