@@ -12,13 +12,24 @@ a {
     color: white;
 }
 
+table {
+    font-family: Helvetica;
+    font-size: 18pt;
+    color: white;
+    width: 100%;
+}
+
 .section_spacer {
-    padding: 20px;
+    padding: 10px;
 }
 
 #user_icon_1 {
     border-radius: 25px;
-    background: #37474F;
+    background: url(assets/images/cube-explode.png) no-repeat;
+    -webkit-background-size: 220px;
+    -moz-background-size: 220px;
+    -o-background-size: 220px;
+    background-size: 220px;
     padding: 10px;
     width: 200px;
     height: 200px;
@@ -45,13 +56,15 @@ a {
         <div id="nav_bar">
             <table>
                 <tr>
-                    <td>Home</td><td>Bio</td><td>GitHub Profile</td><td>Contact</td>
+                    <td><center>Home</center></td><td><center>Bio</center></td>
+                    <td><center>GitHub Profile</center></td><td><center>Contact</center></td>
                 </tr>
             </table>
         </div>
+        <div class="section_spacer"></div>
         <div id="page_header">
             <center>
-                <div id="user_icon_1"><img src="assets/images/cube-explode.png" width="200" height="200"><br></div>
+                <div id="user_icon_1"></div>
                 <div id="name_header_1">Voxel Buster's Portfolio<br>
                 </div>
             </center>
