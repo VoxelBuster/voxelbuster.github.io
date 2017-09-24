@@ -2,31 +2,14 @@
         <head>
             <title>VoxelBuster's Portfolio</title>
             <link rel = "stylesheet" type = "text/css" href = "assets/styles/common.css" />
-            <script>
-            window.addEventListener('load', function(e) {
-
-  window.applicationCache.addEventListener('updateready', function(e) {
-    if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
-      // Browser downloaded a new app cache.
-      // Swap it in and reload the page to get the new hotness.
-      window.applicationCache.swapCache();
-      if (confirm('A new version of this site is available. Load it?')) {
-        window.location.reload();
-      }
-    } else {
-      // Manifest didn't changed. Nothing new to server.
-    }
-  }, false);
-
-}, false);
-            </script>
     </head>
     <body>
             <div id="nav_bar">
                 <table class="common_table">
                     <tr>
-                        <td><center>Home</center></td><td><center>Bio</center></td>
-                        <td><center><a href="https://github.com/VoxelBuster">GitHub Profile</a></center></td><td><center><a href="contact.html">Contact</a></center></td>
+                        <td><center>Home</center></td><td><center><a href="bio.html">Bio</a></center></td>
+                        <td><center><a href="https://github.com/VoxelBuster">GitHub Profile</a></center></td>
+                        <td><center><a href="contact.html">Contact</a></center></td>
                     </tr>
                 </table>
             </div>
