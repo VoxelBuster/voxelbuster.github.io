@@ -4,6 +4,7 @@ body {
     font-size: 16pt;
     color: white;
     word-wrap: break-word;
+    margin-left: 5em;
 }
 
 a {
