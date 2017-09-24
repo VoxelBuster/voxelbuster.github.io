@@ -1,0 +1,116 @@
+body {
+    background-color: #263238;
+    font-family: Helvetica;
+    font-size: 16pt;
+    color: white;
+    word-wrap: break-word;
+}
+
+a {
+    color: skyblue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: skyblue;
+    text-decoration: underline;
+}
+
+.common_table {
+    font-family: Helvetica;
+    font-size: 16pt;
+    color: white;
+    width: 100%;
+}
+
+td {
+    width: 25%;
+}
+
+h2 {
+    font-size: 24pt;
+    color: white;
+    padding: 10px;
+}
+
+.full_line {
+    width: 100%;
+    background-color: white;
+    color: white;
+}
+
+.section_spacer {
+    padding: 10px;
+}
+
+.in_progress {
+    color: cyan;
+}
+
+.desc {
+    font-size: 12pt;
+}
+
+.news_title {
+    font-size: 24pt;
+}
+
+.news_body {
+    font-size: 16pt;
+    color: lightgray;
+}
+
+.common_div {
+    background-color: #455A64;
+    padding: 20px;
+}
+
+#user_icon_1 {
+    border-radius: 25px;
+    background: url(../images/cube-explode.png) no-repeat;
+    -webkit-background-size: 220px;
+    -moz-background-size: 220px;
+    -o-background-size: 220px;
+    background-size: 220px;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+#name_header_1 {
+    font-size: 48pt;
+    color: white;
+    padding: 10px;
+}
+
+#page_header {
+    background-color: #455A64;
+    padding: 20px;
+}
+
+#progress_div {
+    background-color: #455A64;
+    padding: 20px;
+}
+
+#news {
+    background-color: #455A64;
+    padding: 20px;
+}
+
+#progress_header {
+    font-size: 24pt;
+    color: white;
+    padding: 10px;
+}
+
+#news_header {
+    font-size: 24pt;
+    color: white;
+    padding: 10px;
+}
+
+#nav_bar {
+    padding: 10px;
+    background-color: #90A4AE;
+}
