@@ -117,4 +117,7 @@ h2 {
 #nav_bar {
     padding: 10px;
     background-color: #90A4AE;
+    position: fixed;
+    width: 100px;
+    height: 50px;
 }
