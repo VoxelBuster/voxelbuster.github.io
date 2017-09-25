@@ -47,6 +47,10 @@ h2 {
     color: cyan;
 }
 
+.dead {
+    color: purple;
+}
+
 .desc {
     font-size: 12pt;
 }
