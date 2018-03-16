@@ -47,6 +47,10 @@ h2 {
     color: cyan;
 }
 
+.complete {
+    color: green;
+}
+
 .dead {
     color: purple;
 }
