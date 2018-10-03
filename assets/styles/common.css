@@ -9,10 +9,11 @@ body {
 a {
     color: skyblue;
     text-decoration: none;
+    transition-duration: 0.3s;
 }
 
 a:hover {
-    color: skyblue;
+    color: white;
     text-decoration: underline;
 }
 
@@ -121,4 +122,9 @@ h2 {
 #nav_bar {
     padding: 10px;
     background-color: #90A4AE;
+    text-align: right;
+}
+
+.links a {
+    padding: 0 10px;
 }
